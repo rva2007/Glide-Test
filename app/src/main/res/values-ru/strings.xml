@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glide Тест</string>
+    <string name="camera_button">кнопка камеры</string>
+    <string name="gallery_button">кнопка галереи</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="you_won_title">Хорошая работа!!!</string>
+    <string name="you_won_message">Картинка собрана!</string>
+    <string name="you_won_question">Хотите собрать еще одну?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="complexity_text">Количество пазлов</string>
+    <string name="image_on_settings_screen">картинка на экране настроек</string>
+    <string name="get_wrong_puzzles_back">вернуть неверно установленные пазлы</string>
+    <string name="picture">картинка</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="are_you_sure">Вы уверены, что хотите выйти?</string>
+</resources>

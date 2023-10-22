@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Glide Test</string>
+    <string name="camera_button">camera button</string>
+    <string name="gallery_button">gallery button</string>
+    <string name="continue_button">Continue</string>
+    <string name="you_won_title">Good job!!!</string>
+    <string name="you_won_message">The picture is assembled!</string>
+    <string name="you_won_question">Do you want to assemble another one?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="complexity_text">Number of puzzles</string>
+    <string name="image_on_settings_screen">image on settings screen</string>
+    <string name="get_wrong_puzzles_back">get wrong puzzles back</string>
+    <string name="picture">picture</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="are_you_sure">Are you sure you want to exit?</string>
 </resources>
