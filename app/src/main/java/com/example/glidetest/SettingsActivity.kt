@@ -19,6 +19,17 @@ class SettingsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding.settingsImageView.post {
+
+            val imageFromCamera = intent.getStringExtra("camera")
+            if (imageFromCamera != null) {
+                Glide.with(applicationContext)
+                    .asBitmap()
+                    .load(imageFromCamera)
+                    .into(binding.settingsImageView)
+            }
+
+
+
             val imageFromGallery = intent.getStringExtra("gallery")
             if (imageFromGallery != null) {
                 Glide.with(applicationContext)
@@ -26,10 +37,6 @@ class SettingsActivity : AppCompatActivity() {
                     .load(imageFromGallery)
                     .into(binding.settingsImageView)
             }
-
-
-
-
 
             val imageFromAssets = intent.getStringExtra("assets")
             if (imageFromAssets != null) {
